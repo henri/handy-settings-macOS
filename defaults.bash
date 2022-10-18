@@ -14,17 +14,17 @@ defaults write ~/Library/Preferences/.GlobalPreferences.plist NSCloseAlwaysConfi
 defaults write .GlobalPreferences.plist AppleKeyboardUIMode 2
 
 # safari show full url in smart search filed 
-defaults write com.apple.Safari "ShowFullURLInSmartSearchField" -bool "true" # && killall Safari
+defaults write com.apple.Safari "ShowFullURLInSmartSearchField" -bool true # && killall Safari
 
 # safari disable automatic opening of some file types which are downloaded
-defaults write com.apple.Safari AutoOpenSafeDownloads -boolean NO
+defaults write com.apple.Safari AutoOpenSafeDownloads -bool false
 
 # safari enable devleop drop down menu
 defaults write com.apple.Safari IncludeDebugMenu 1
 
 # set TextEdit to default to plain text files
-defaults write com.apple.TextEdit "RichText" -bool "false" && killall TextEdit
+defaults write com.apple.TextEdit "RichText" -bool false && killall TextEdit
 
 # disable application was downlaoded from the internet quarentine message
-defaults write com.apple.LaunchServices "LSQuarantine" -bool "false" 
+defaults write com.apple.LaunchServices "LSQuarantine" -bool false 
 
