@@ -19,3 +19,6 @@ defaults write com.apple.safari "ShowFullURLInSmartSearchField" -bool "true" # &
 # set TextEdit to default to plain text files
 defaults write com.apple.TextEdit "RichText" -bool "false" && killall TextEdit
 
+# disable application was downlaoded from the internet quarentine message
+defaults write com.apple.LaunchServices "LSQuarantine" -bool "false" 
+
