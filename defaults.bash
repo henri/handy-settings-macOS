@@ -16,6 +16,9 @@ defaults write .GlobalPreferences.plist AppleKeyboardUIMode 2
 # safari show full url in smart search filed 
 defaults write com.apple.safari "ShowFullURLInSmartSearchField" -bool "true" # && killall Safari
 
+# safari disable automatic opening of some file types which are downloaded
+defaults write com.apple.Safari AutoOpenSafeDownloads -boolean NO
+
 # set TextEdit to default to plain text files
 defaults write com.apple.TextEdit "RichText" -bool "false" && killall TextEdit
 
