@@ -13,5 +13,9 @@ defaults write ~/Library/Preferences/.GlobalPreferences.plist NSCloseAlwaysConfi
 # enable keyboard navigation of controls
 defaults write .GlobalPreferences.plist AppleKeyboardUIMode 2
 
-@ safari show full url in smart search filed 
+# safari show full url in smart search filed 
 defaults write com.apple.safari "ShowFullURLInSmartSearchField" -bool "true" # && killall Safari
+
+# set TextEdit to default to plain text files
+defaults write com.apple.TextEdit "RichText" -bool "false" && killall TextEdit
+
