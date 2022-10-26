@@ -22,6 +22,9 @@ defaults write ~/Library/Preferences/.GlobalPreferences.plist NSCloseAlwaysConfi
 # enable keyboard navigation of controls
 defaults write .GlobalPreferences.plist AppleKeyboardUIMode 2
 
+# set default saving location for new files to local storage rather than iCloud
+defaults write NSGlobalDomain "NSDocumentSaveNewDocumentsToCloud" -bool "false" 
+
 # safari show full url in smart search filed 
 defaults write com.apple.Safari "ShowFullURLInSmartSearchField" -bool true # && killall Safari
 
