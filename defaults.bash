@@ -7,6 +7,12 @@ defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
 # do not warn about file name extension (suffix) changes
 defaults write com.apple.finder "FXEnableExtensionChangeWarning" -bool "false" # && killall Finder
 
+# show path bar in finder (aka bread crumbs).
+defaults write com.apple.finder "ShowPathbar" -bool "true" # && killall Finder
+
+# show stats bar in finder (how many items free space etc).
+defaults write com.apple.finder "ShowStatusBar" -bool "true" # && killall Finder
+
 # ask to confirm changes before saving files (disable autosave)
 defaults write ~/Library/Preferences/.GlobalPreferences.plist NSCloseAlwaysConfirmsChanges 1
 
