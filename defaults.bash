@@ -27,6 +27,7 @@ defaults write com.apple.finder "FXPreferredViewStyle" -string "Nlsv" # && killa
 defaults write com.apple.universalaccess "showWindowTitlebarIcons" -bool "true" # && killall Finder
 
 # ask to confirm changes before saving files (disable autosave)
+# << further information : https://gist.github.com/henri/5c99c609f78be6d1660ce78865a19ed1 >>
 defaults write ~/Library/Preferences/.GlobalPreferences.plist NSCloseAlwaysConfirmsChanges 1
 
 # enable keyboard navigation of controls
