@@ -1,5 +1,5 @@
 # macOS-handy-settings
-Handy settings to know about for MacOS.
+Handy macOS settings can be quickly setup on new / existing systems.
 
 Have you been setting up a new machine (from scratch / without an MDM) and thought. Wow it would be great to have a bunch 
 of settings on the computer just how I like them? I had this thought and made the defaults.bash script which you can run
