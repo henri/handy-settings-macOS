@@ -22,8 +22,8 @@ defaults write com.apple.finder "ShowStatusBar" -bool "true" # && killall Finder
 # set default finder view to list
 defaults write com.apple.finder "FXPreferredViewStyle" -string "Nlsv" # && killall Finder
 
-# set finder to show title icon - by default on newer systems it is hidden and it will appear when you hover over the folder name
-# << this icon is useful - you can use this to drag a save location from finder to the save / open dialog box) >> 
+# set finder to show title icon - by default on modern macOS systems it is hidden by defuault (it appears when you hover over the folder name)
+# << this icon is useful - you can use this to drag the icon from finder to the save / open dialog box) >> 
 defaults write com.apple.universalaccess "showWindowTitlebarIcons" -bool "true" # && killall Finder
 
 # ask to confirm changes before saving files (disable autosave)
