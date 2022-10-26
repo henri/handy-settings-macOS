@@ -1,3 +1,9 @@
+#!/bin/bash
+
+# Released under the MIT Licence
+# Henri Shustak - macOS default settings
+# (C)2022 All Rights Reserved
+
 # set menu bar clock to analog
 defauls write com.apple.menuextra.clock IsAnalog -bool true
 
