@@ -13,6 +13,9 @@ defaults write com.apple.finder "ShowPathbar" -bool "true" # && killall Finder
 # show stats bar in finder (how many items free space etc).
 defaults write com.apple.finder "ShowStatusBar" -bool "true" # && killall Finder
 
+# set default finder view to list
+defaults write com.apple.finder "FXPreferredViewStyle" -string "Nlsv" # && killall Finder
+
 # ask to confirm changes before saving files (disable autosave)
 defaults write ~/Library/Preferences/.GlobalPreferences.plist NSCloseAlwaysConfirmsChanges 1
 
