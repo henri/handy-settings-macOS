@@ -29,19 +29,31 @@ if [ $0 != 0 ] ; then
   fi
 fi
 
-# install command line interface to mac application store
+### install command line interface to mac application store
 # brew install mas
 
-# install some web browsers
+### install some web browsers
 brew install --cask firefox
 brew install --cask chromium
 
-# install some text editors 
+### install some text editors 
 brew install --cask vscodium
 brew install --cask textmate
 
-# media players
+### media players
 brew install --cask vlc
 brew install --cask mplayerx
+
+### handy utiltiies
+# brew install wget
+# brew install telnet
+# brew install nmap
+# brew install --cask little-snitch
+# brew install --cask little-snitch
+# brew install --cask carbon-copy-cloner
+# brew install --cask launchbar
+# brew install --cask iterm2
+# brew install --cask gyroflow
+# brew install --cask forklift
 
 
