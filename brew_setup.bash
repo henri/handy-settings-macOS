@@ -59,6 +59,9 @@ brew install htop
 # brew install wget
 # brew install telnet
 # brew install nmap
+# brew install iperf3
+
+### handy casks
 # brew install --cask little-snitch
 # brew install --cask little-snitch
 # brew install --cask carbon-copy-cloner
@@ -74,4 +77,6 @@ brew install htop
 # brew install ruby
 # brew install go
 # brew install python@3.9
+# brew install rust
+# brew install gcc
 
