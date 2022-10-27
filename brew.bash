@@ -10,7 +10,8 @@
 # Released under the MIT Licence : https://mit-license.org
 #
 
-# NOTE : It is easiest to run this as as a user who can sudo on the system.
+# NOTE (1) : It is easiest to run this as as a user who can sudo on the system.
+# NOTE (2) : 
 
 # Uncomment the line below to install brew - you would be better off visiting www.brew.sh and making sure you get the real deal.
 # /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -26,6 +27,9 @@ if [ $0 != 0 ] ; then
   fi
 fi
 
+# install command line interface to mac application store
+# brew install mas
+
 # install some web browsers
 brew install --cask firefox
 brew install --cask chromium
@@ -34,7 +38,8 @@ brew install --cask chromium
 brew install --cask vscodium
 brew install --cask textmate
 
-
-
+# media players
+brew install --cask vlc
+brew install --cask mplayerx
 
 
