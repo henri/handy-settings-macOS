@@ -48,6 +48,14 @@ brew install --cask vlc
 ### handy utiltiies
 brew install git
 brew install f3
+brew install tmux
+brew install coreutils
+brew install htop
+# brew install sox
+# brew install dateutils
+# brew install mosh
+# brew install wireshark
+# brew install youtube-dl
 # brew install wget
 # brew install telnet
 # brew install nmap
@@ -61,7 +69,9 @@ brew install f3
 # brew install --cask path-finder
 
 ### scripting 
+# brew install bash
 # brew install fish
 # brew install ruby
+# brew install go
 # brew install python@3.9
 
