@@ -33,18 +33,21 @@ fi
 # brew install mas
 
 ### install some web browsers
-brew install --cask firefox
-brew install --cask chromium
+# brew install --cask firefox
+# brew install --cask chromium
 
 ### install some text editors 
-brew install --cask vscodium
-brew install --cask textmate
+# brew install --cask vscodium
+# brew install --cask textmate
+# brew install --cask atom
 
 ### media players
 brew install --cask vlc
-brew install --cask mplayerx
+# brew install --cask mplayerx
 
 ### handy utiltiies
+brew install git
+brew install f3
 # brew install wget
 # brew install telnet
 # brew install nmap
@@ -55,5 +58,10 @@ brew install --cask mplayerx
 # brew install --cask iterm2
 # brew install --cask gyroflow
 # brew install --cask forklift
+# brew install --cask path-finder
 
+### scripting 
+# brew install fish
+# brew install ruby
+# brew install python@3.9
 
