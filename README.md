@@ -7,8 +7,7 @@ to set up your macOS system settings just as you like.
 
 Perhaps you want to quickly install various software on a new computer. I have and that is the reason for the brew_setup.bash 
 found in this repository, download edit to install just what you want and then run it to install the software you need on the 
-system. This appraoch saves lots of time. Instead of visiting various websites, downloading many installers and running them, 
-just use the brew_setup.bash script!
+system. Instead of visiting various websites, downloading many installers and running them, just use the brew_setup.bash script!
 
 It may be extended to cover additional settings in the future. Perhaps even a config file so you can quickly
 set up a machine with some stuff which make sense to you personally rather than everything being in a single script.
