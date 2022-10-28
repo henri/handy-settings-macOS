@@ -29,14 +29,14 @@ if [ $0 != 0 ] ; then
   fi
 fi
 
-### install command line interface to mac application store
+### install command line interface to mac app store
 # brew install mas
 
-### install some web browsers
+### web browsers
 # brew install --cask firefox
 # brew install --cask chromium
 
-### install some text editors 
+### text editors 
 # brew install --cask vscodium
 # brew install --cask textmate
 # brew install --cask atom
