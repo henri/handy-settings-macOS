@@ -63,7 +63,6 @@ brew install htop
 
 ### handy casks
 # brew install --cask little-snitch
-# brew install --cask little-snitch
 # brew install --cask carbon-copy-cloner
 # brew install --cask launchbar
 # brew install --cask iterm2
