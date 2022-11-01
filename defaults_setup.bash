@@ -4,6 +4,13 @@
 # Henri Shustak - macOS default settings
 # (C)2022 All Rights Reserved
 
+# check if we are running on a system earlier than macOS 11 (eg macOS 10.x)
+if [ `uname -r | awk -F "." '{print $1}'` -le 19 ] ; then
+	pre-macos-11="true"
+else
+	pre-macos-11="false"
+fi
+
 # set menu bar clock to analog
 defauls write com.apple.menuextra.clock IsAnalog -bool true
 
@@ -24,7 +31,9 @@ defaults write com.apple.finder "FXPreferredViewStyle" -string "Nlsv" # && killa
 
 # set finder to show title icon - on modern macOS systems it is hidden by defuault (it appears when you hover over the folder name)
 # << this icon is useful - you can use this to drag the icon from finder to the save / open dialog box) >> 
-defaults write com.apple.universalaccess "showWindowTitlebarIcons" -bool "true" # && killall Finder
+if [ "${pre-macos-11}" == "false" ] ; then
+	defaults write com.apple.universalaccess "showWindowTitlebarIcons" -bool "true" # && killall Finder
+fi
 
 # ask to confirm changes before saving files (disable autosave)
 # << further information : https://gist.github.com/henri/5c99c609f78be6d1660ce78865a19ed1 >>
