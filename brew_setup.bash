@@ -79,3 +79,11 @@ brew install htop
 # brew install rust
 # brew install gcc
 
+### container / VM
+# brew install --cask docker
+# brew install --cask vmware-fusion
+# brew install --cask virtualbox
+
+
+
+
