@@ -5,7 +5,7 @@ Have you been setting up a new machine (from scratch / without an MDM) and thoug
 of settings on the computer just how I like them? I had this thought and made the defaults.bash script which you can run
 to set up your macOS system settings just as you like.
 
-Perhaps you want to quickly install various software on a new computer. I have and that is the reason for the brew_setup.bash 
+Perhaps you want to quickly install various software packages on a new computer. I have and that is the reason for the brew_setup.bash 
 found in this repository, download edit to install just what you want and then run it to install the software you need on the 
 system. Instead of visiting various websites, downloading many installers and running them, just use the brew_setup.bash script!
 
