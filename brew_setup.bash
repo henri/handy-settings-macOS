@@ -51,6 +51,7 @@ brew install f3
 brew install tmux
 brew install coreutils
 brew install htop
+brew install timeout 
 # brew install sox
 # brew install dateutils
 # brew install mosh
