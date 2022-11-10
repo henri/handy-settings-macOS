@@ -14,6 +14,9 @@ fi
 # set menu bar clock to analog
 defauls write com.apple.menuextra.clock IsAnalog -bool true
 
+# disable menu bar clock
+# defaults write com.apple.MenuBarClock ClockEnabled -bool false # && killall SystemUIServer -HUP
+
 # set menu bar clock to digital, show the date and time in 24 hour mode
 # defaults write com.apple.menuextra.clock.plist DateFormat "EEE d MMM  HH:mm" # && killall SystemUIServer -HUP
 
