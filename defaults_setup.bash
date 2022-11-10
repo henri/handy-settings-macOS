@@ -15,7 +15,14 @@ fi
 defauls write com.apple.menuextra.clock IsAnalog -bool true
 
 # set menu bar clock to digital, show the date and time in 24 hour mode
-defaults write com.apple.menuextra.clock.plist DateFormat "EEE d MMM  HH:mm" # && killall SystemUIServer
+# defaults write com.apple.menuextra.clock.plist DateFormat "EEE d MMM  HH:mm" # && killall SystemUIServer -HUP
+
+# list apple menu bar items 
+# ls /System/Library/CoreServices/Menu\ Extras/ 
+
+# add volume controls to the menu bar
+defaults write com.apple.systemuiserver menuExtras -array-add "/System/Library/CoreServices/Menu Extras/Volume.menu" # && killall SystemUIServer -HUP
+
 
 # show expanded save dialog box by default
 defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
