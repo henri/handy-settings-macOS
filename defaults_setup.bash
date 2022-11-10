@@ -29,10 +29,12 @@ defauls write com.apple.menuextra.clock IsAnalog -bool true
 defaults write com.apple.systemuiserver menuExtras -array-add "/System/Library/CoreServices/Menu Extras/Volume.menu" # && killall SystemUIServer -HUP
 
 # show battery percentage in the menubar
-# defaults write com.apple.menuextra.battery ShowPercent -string YES
+# defaults write com.apple.menuextra.battery ShowPercent -string YES # && killall SystemUIServer -HUP
 
 # show expanded save dialog box by default
 defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
+defaults write NSGlobalDomain PMPrintingExpandedStateForPrint -bool true
+defaults write NSGlobalDomain PMPrintingExpandedStateForPrint2 -bool true
 
 # do not warn about file name extension (suffix) changes
 defaults write com.apple.finder "FXEnableExtensionChangeWarning" -bool "false" # && killall Finder
