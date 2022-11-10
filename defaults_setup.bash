@@ -14,6 +14,9 @@ fi
 # set menu bar clock to analog
 defauls write com.apple.menuextra.clock IsAnalog -bool true
 
+# set menu bar clock to digital, show the date and time in 24 hour mode
+defaults write com.apple.menuextra.clock.plist DateFormat "EEE d MMM  HH:mm" # something needs to be reset for this to take effect
+
 # show expanded save dialog box by default
 defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
 
