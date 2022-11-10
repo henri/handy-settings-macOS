@@ -8,6 +8,7 @@
 
 # Tips on finding the domain and key responsible for a setting 
 # https://pawelgrzybek.com/change-macos-user-preferences-via-command-line/
+# https://github.com/catilac/plistwatch
 
 # check if we are running on a system earlier than macOS 11 (eg macOS 10.x)
 if [ `uname -r | awk -F "." '{print $1}'` -le 19 ] ; then
