@@ -91,3 +91,7 @@ defaults write com.apple.finder FXPreferredViewStyle Nlsv
 # set finder window list column view
 # defaults write com.apple.finder FXPreferredViewStyle Clmv
 
+# disable .DS_Store file creation on network volumes
+# defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
+
+
