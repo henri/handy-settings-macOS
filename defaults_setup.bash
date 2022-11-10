@@ -97,3 +97,8 @@ defaults write com.apple.finder FXPreferredViewStyle Nlsv
 # disable time machine prompt to use new / recently formated drives as backup volume
 defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
 
+# delete all items from safari bookmarks bar items 
+# defaults write com.apple.Safari ProxiesInBookmarksBar "()" # danger will robbinson
+
+
+
