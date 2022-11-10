@@ -28,6 +28,8 @@ defauls write com.apple.menuextra.clock IsAnalog -bool true
 # add volume controls to the menu bar
 defaults write com.apple.systemuiserver menuExtras -array-add "/System/Library/CoreServices/Menu Extras/Volume.menu" # && killall SystemUIServer -HUP
 
+# show battery percentage in the menubar
+# defaults write com.apple.menuextra.battery ShowPercent -string YES
 
 # show expanded save dialog box by default
 defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
