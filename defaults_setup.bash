@@ -122,3 +122,9 @@ defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
 
 # spaces disable automatic rearrangment based on use
 # defaults write com.apple.dock mru-spaces -bool false
+
+# enable tap to click on trackpad
+# defaults write com.apple.AppleMultitouchTrackpad Clicking -bool true
+# sudo defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
+# sudo defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
+sudo defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
