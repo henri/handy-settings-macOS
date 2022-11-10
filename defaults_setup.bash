@@ -73,6 +73,10 @@ defaults write com.apple.Safari AutoOpenSafeDownloads -bool false
 # safari enable devleop drop down menu
 defaults write com.apple.Safari IncludeDebugMenu 1
 
+# safari enable web inspector drop down menue
+# defaults write com.apple.Safari WebKitDeveloperExtrasEnabledPreferenceKey -bool true
+# defaults write com.apple.Safari "com.apple.Safari.ContentPageGroupIdentifier.WebKit2DeveloperExtrasEnabled" -bool true
+
 # set TextEdit to default to plain text files
 defaults write com.apple.TextEdit "RichText" -bool false # && killall TextEdit
 
