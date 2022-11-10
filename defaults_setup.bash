@@ -26,6 +26,8 @@ defauls write com.apple.menuextra.clock IsAnalog -bool true
 # set menu bar clock to digital, show the date and time in 24 hour mode
 # defaults write com.apple.menuextra.clock.plist DateFormat "EEE d MMM  HH:mm" # && killall SystemUIServer -HUP
 
+# show the input menu in the menu bar
+# defaults read com.apple.TextInputMenu visible
 
 # list apple menu bar items 
 # ls /System/Library/CoreServices/Menu\ Extras/ 
