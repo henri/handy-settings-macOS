@@ -85,3 +85,9 @@ defaults write com.apple.LaunchServices "LSQuarantine" -bool false
 # subpixel font rendering on non-Apple displays
 # defaults write NSGlobalDomain AppleFontSmoothing -int 2
 
+# set finder window list view  
+defaults write com.apple.finder FXPreferredViewStyle Nlsv
+
+# set finder window list column view
+# defaults write com.apple.finder FXPreferredViewStyle Clmv
+
