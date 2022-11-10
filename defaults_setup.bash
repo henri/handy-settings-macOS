@@ -4,6 +4,8 @@
 # Henri Shustak - macOS default settings
 # (C)2022 All Rights Reserved
 
+# About : Use the macOS defaults command to configure settings on the system (user / system level).
+
 # check if we are running on a system earlier than macOS 11 (eg macOS 10.x)
 if [ `uname -r | awk -F "." '{print $1}'` -le 19 ] ; then
 	PRE-MACOS_11="true"
