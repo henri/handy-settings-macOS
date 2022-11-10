@@ -28,7 +28,11 @@ defauls write com.apple.menuextra.clock IsAnalog -bool true
 # defaults write com.apple.menuextra.clock.plist DateFormat "EEE d MMM  HH:mm" # && killall SystemUIServer -HUP
 
 # show the input menu in the menu bar
-# defaults read com.apple.TextInputMenu visible
+defaults read com.apple.TextInputMenu visible # && killall SystemUIServer -HUP
+
+# enable show keyboard and emoji viewer in menu bar
+defaults write "com.apple.HIToolbox" "AppleEnabledInputSources" '({InputSourceKind="Keyboard Layout";"KeyboardLayout ID"=15;"KeyboardLayout Name"=Australian;},{"Bundle ID"="com.apple.CharacterPaletteIM";InputSourceKind="Non Keyboard Input Method";},)' # && killall SystemUIServer -HUP
+
 
 # list apple menu bar items 
 # ls /System/Library/CoreServices/Menu\ Extras/ 
