@@ -94,4 +94,6 @@ defaults write com.apple.finder FXPreferredViewStyle Nlsv
 # disable .DS_Store file creation on network volumes
 # defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
 
+# disable time machine prompt to use new / recently formated drives as backup volume
+defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
 
