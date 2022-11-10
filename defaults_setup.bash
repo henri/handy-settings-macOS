@@ -81,3 +81,7 @@ defaults write com.apple.LaunchServices "LSQuarantine" -bool false
 
 # set login window to show username and password rather than icon which you click - requires root permission - tested on macOS 13 and earlier
 # sudo defaults write /Library/Preferences/com.apple.loginwindow.plist SHOWFULLNAME 1
+
+# subpixel font rendering on non-Apple displays
+# defaults write NSGlobalDomain AppleFontSmoothing -int 2
+
