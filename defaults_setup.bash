@@ -30,11 +30,11 @@ defauls write com.apple.menuextra.clock IsAnalog -bool true
 # add volume controls to the menu bar
 defaults write com.apple.systemuiserver menuExtras -array-add "/System/Library/CoreServices/Menu Extras/Volume.menu" # && killall SystemUIServer -HUP
 
-# enable audio volume adjustment feedback 
-defaults write com.apple.systemsound "com.apple.sound.uiaudio.enabled" -int 0
+# enable audio volume adjustment feedback - NOT WORKING - on macOS 10.15
+#defaults write com.apple.systemsound "com.apple.sound.uiaudio.enabled" -int 1
 
-# disable audio volume adjustment feedback 
-defaults write com.apple.systemsound "com.apple.sound.uiaudio.enabled" -int 0
+# disable audio volume adjustment feedback - NOT WORKING - on macOS 10.15
+# defaults write com.apple.systemsound "com.apple.sound.uiaudio.enabled" -int 0
 
 # show battery percentage in the menubar
 # defaults write com.apple.menuextra.battery ShowPercent -string YES # && killall SystemUIServer -HUP
