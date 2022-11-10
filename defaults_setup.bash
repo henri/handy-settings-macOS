@@ -31,7 +31,7 @@ defaults write com.apple.systemuiserver menuExtras -array-add "/System/Library/C
 # show battery percentage in the menubar
 # defaults write com.apple.menuextra.battery ShowPercent -string YES # && killall SystemUIServer -HUP
 
-# show expanded save dialog box by default
+# show expanded dialog box by default
 defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
 defaults write NSGlobalDomain PMPrintingExpandedStateForPrint -bool true
 defaults write NSGlobalDomain PMPrintingExpandedStateForPrint2 -bool true
