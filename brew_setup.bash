@@ -63,10 +63,11 @@ brew install htop
 # brew install nmap
 # brew install iperf3
 
-### handy casks
+### handy terminal programs
 brew install --cask iterm2
 brew install --cask warp
 
+### handy apps
 # brew install --cask little-snitch
 # brew install --cask carbon-copy-cloner
 # brew install --cask launchbar
