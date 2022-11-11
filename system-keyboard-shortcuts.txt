@@ -1,0 +1,9 @@
+# sleep display 
+control-shift-eject
+
+# shutdown 
+command-option-control-eject
+
+# smc reset (only older systems)
+[left]option-[left]control-[left]shift-power
+
