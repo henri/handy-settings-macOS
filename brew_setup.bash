@@ -64,8 +64,9 @@ brew install htop
 # brew install iperf3
 
 ### handy terminal programs
-brew install --cask iterm2
-brew install --cask warp
+# brew install --cask iterm2
+# brew install --cask warp
+# brew install --cask termius
 
 ### handy apps
 # brew install --cask little-snitch
