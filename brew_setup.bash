@@ -64,10 +64,12 @@ brew install htop
 # brew install iperf3
 
 ### handy casks
+brew install --cask iterm2
+brew install --cask warp
+
 # brew install --cask little-snitch
 # brew install --cask carbon-copy-cloner
 # brew install --cask launchbar
-# brew install --cask iterm2
 # brew install --cask gyroflow
 # brew install --cask forklift
 # brew install --cask path-finder
