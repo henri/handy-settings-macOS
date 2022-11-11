@@ -9,7 +9,7 @@
 #
 #
 # NOTE (1) : It is easiest to run this as as a user who can sudo on the system.
-# NOTE (2) : 
+# NOTE (2) : You will want to copy and paste / uncomment and comment lines to make this work how you like.
 #
 # Before using this script you should install brew. Visit brew.sh and get the install command.
 # If you are feeling lucky, you could uncomment the line below - your milage may vary.
