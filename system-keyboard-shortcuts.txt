@@ -7,3 +7,5 @@ command-option-control-eject
 # smc reset (only older systems)
 [left]option-[left]control-[left]shift-power
 
+# hide / unhide dock
+command-option-d
