@@ -15,5 +15,5 @@ It could even ask questions to find out what you want to install.
 
 For now you can fork a and edit your own copy so it is just how you like :)
 
-There are many approaches to working out a defaults command. If you are particularly stuck, then [plistwatch](https://github.com/catilac/plistwatch)) is a handy tool which is well worth a look.
+There are many approaches to working out a defaults command. If you are particularly stuck, then [plistwatch](https://github.com/catilac/plistwatch) is a handy tool which is well worth a look.
 
