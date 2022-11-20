@@ -17,8 +17,8 @@
 # If you have a access to a fast mirror of the repo set the settings below - additional information : 
 # https://docs.brew.sh/Installation#git-remote-mirroring
 #
-# export HOMEBREW_BREW_GIT_REMOTE="..."  # fast Git mirror of Homebrew/brew 
-# export HOMEBREW_CORE_GIT_REMOTE="..."  # fast Git mirror of Homebrew/homebrew-core
+# export HOMEBREW_BREW_GIT_REMOTE="..."  # fast git mirror of Homebrew/brew 
+# export HOMEBREW_CORE_GIT_REMOTE="..."  # fast git mirror of Homebrew/homebrew-core
 #
 # Uncomment the line below to install brew - you would be better off visiting www.brew.sh and making sure you get the real deal.
 # /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
