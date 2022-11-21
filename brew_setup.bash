@@ -20,6 +20,9 @@
 # export HOMEBREW_BREW_GIT_REMOTE="..."  # fast git mirror of Homebrew/brew 
 # export HOMEBREW_CORE_GIT_REMOTE="..."  # fast git mirror of Homebrew/homebrew-core
 #
+# or - if you want to get API experimental style : 
+# export HOMEBREW_INSTALL_FROM_API=1
+#
 # Uncomment the line below to install brew - you would be better off visiting www.brew.sh and making sure you get the real deal.
 # /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
