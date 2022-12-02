@@ -85,6 +85,7 @@ brew install htop
 # brew install --cask launchbar
 # brew install --cask gyroflow
 # brew install --cask forklift
+# brew install --cask typinator
 # brew install --cask path-finder
 
 ### scripting 
