@@ -87,6 +87,7 @@ brew install htop
 # brew install --cask forklift
 # brew install --cask typinator
 # brew install --cask path-finder
+# brew install --cask shady
 
 ### scripting 
 # brew install bash
