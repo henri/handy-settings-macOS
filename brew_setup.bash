@@ -53,6 +53,8 @@ fi
 # brew install --cask vscodium
 # brew install --cask textmate
 # brew install --cask atom
+# brew install --cask macdown
+
 
 ### media players
 brew install --cask vlc
