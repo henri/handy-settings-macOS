@@ -90,6 +90,7 @@ brew install htop
 # brew install --cask typinator
 # brew install --cask path-finder
 # brew install --cask shady
+# brew install --cask soulver
 
 ### scripting 
 # brew install bash
