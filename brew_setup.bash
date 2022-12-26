@@ -91,6 +91,8 @@ brew install htop
 # brew install --cask path-finder
 # brew install --cask shady
 # brew install --cask soulver
+# brew install --cask audio-hijack
+# brew install --cask fission
 
 ### scripting 
 # brew install bash
