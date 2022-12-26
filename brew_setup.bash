@@ -93,6 +93,7 @@ brew install htop
 # brew install --cask soulver
 # brew install --cask audio-hijack
 # brew install --cask fission
+# brew install --cask soundsource
 
 ### scripting 
 # brew install bash
