@@ -95,6 +95,11 @@ brew install htop
 # brew install --cask fission
 # brew install --cask soundsource
 
+### Serif Graphic Design / Editing Tools (v2)
+# brew install --cask affinity-photo 
+# brew install --cask affinity-designer 
+# brew install --cask affinity-publisher
+
 ### scripting 
 # brew install bash
 # brew install fish
