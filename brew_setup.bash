@@ -85,6 +85,7 @@ brew install htop
 # brew install --cask little-snitch
 # brew install --cask carbon-copy-cloner
 # brew install --cask launchbar
+# brew install --cask raycast
 # brew install --cask gyroflow
 # brew install --cask forklift
 # brew install --cask typinator
