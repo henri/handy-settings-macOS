@@ -54,6 +54,8 @@ fi
 # brew install --cask textmate
 # brew install --cask atom
 # brew install --cask macdown
+# brew install --cask sublime-text
+# brew install --cask sublime-merge
 
 
 ### media players
