@@ -97,6 +97,7 @@ brew install htop
 # brew install --cask audio-hijack
 # brew install --cask fission
 # brew install --cask soundsource
+# brew install --cask keka
 
 ### Serif Labs
 # brew install --cask affinity-photo 
