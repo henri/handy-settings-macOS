@@ -118,6 +118,8 @@ brew install htop
 # brew install --cask vmware-fusion
 # brew install --cask virtualbox
 
+### vnc tools
+# brew install --cask vnc-viewer # realvnc macOS app - works with x11vnc on LINUX
 
 
 
