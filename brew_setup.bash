@@ -77,6 +77,7 @@ brew install htop
 # brew install telnet
 # brew install nmap
 # brew install iperf3
+# brew install --cask rectangle
 
 ### handy terminal programs
 # brew install --cask iterm2
