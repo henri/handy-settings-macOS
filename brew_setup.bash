@@ -63,8 +63,9 @@ brew install --cask vlc
 # brew install --cask mplayerx
 
 ### handy utiltiies
+brew install qalc # calculator with unit conversion
 brew install git
-brew install f3
+brew install f3 # check flash drives and other storage media
 brew install tmux
 brew install coreutils
 brew install htop
