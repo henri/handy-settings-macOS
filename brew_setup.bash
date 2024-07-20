@@ -13,6 +13,8 @@
 #
 # Before using this script you should install brew. Visit brew.sh and get the install command.
 # If you are feeling lucky, you could uncomment the line below - your milage may vary.
+# Offical website for brew : https://brew.sh
+#
 #
 # If you have a access to a fast mirror of the repo set the settings below - additional information : 
 # https://docs.brew.sh/Installation#git-remote-mirroring
