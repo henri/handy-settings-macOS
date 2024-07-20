@@ -25,10 +25,17 @@
 #
 # Uncomment the line below to install brew - you would be better off visiting www.brew.sh and making sure you get the real deal.
 # /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
+#
 # # #  brew handy cheat sheet section  
+#   #
 #   #    show brew package dependicnes
 # # #    $ brew deps --tree --installed <package>
+#   #
+#   #    show installed pcakages
+# # #    $ brew list
+#   #    
+#   #    
+# # #
 
 # check the brewing setup is ready for production
 brew doctor
@@ -49,6 +56,7 @@ fi
 ### web browsers
 # brew install --cask firefox
 # brew install --cask chromium
+# brew install --cask brave-browser
 
 ### text editors 
 # brew install --cask vscodium
