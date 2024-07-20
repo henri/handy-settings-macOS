@@ -26,8 +26,9 @@
 # Uncomment the line below to install brew - you would be better off visiting www.brew.sh and making sure you get the real deal.
 # /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-
-
+# # #  brew handy cheat sheet section  
+#   #    show brew package dependicnes
+# # #    $ brew deps --tree --installed <package>
 
 # check the brewing setup is ready for production
 brew doctor
