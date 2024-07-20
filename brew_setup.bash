@@ -42,9 +42,7 @@
 # check the brewing setup is ready for production
 brew doctor
 if [ $0 != 0 ] ; then
-  echo ""
-  echo ""
-  echo "You seem to have some issues with your brewing setup. Would you really like to continue [N/y] : "
+  echo "" ; echo "" ; echo "You seem to have some issues with your brewing setup. Would you really like to continue [N/y] : "
   read BOTTLE_OUT
   if [ "${BOTTLE_OUT}" != "y" ] && [ "${BOTTLE_OUT}" != "yes" ] && [ "${BOTTLE_OUT}" != "Y" ] &&  [ "${BOTTLE_OUT}" != "YES" ] ; then
     # bottle out
