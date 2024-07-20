@@ -65,6 +65,10 @@ fi
 # brew install --cask macdown
 # brew install --cask sublime-text
 # brew install --cask sublime-merge
+# brew install micro
+# brew install nvim
+# brew install emacs
+
 
 
 ### media players
