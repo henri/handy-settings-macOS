@@ -73,6 +73,7 @@ fi
 
 ### media players
 brew install --cask vlc
+brew install mpv
 # brew install --cask mplayerx
 
 ### handy utiltiies
