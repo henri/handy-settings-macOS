@@ -96,7 +96,9 @@ brew install blueutil # bluetooth control via the command line
 # brew install --cask rectangle
 
 ### handy terminal programs
-# brew install --cask iterm2
+brew install --cask iterm2
+brew install --cask wezterm
+# brew install --cask kitty
 # brew install --cask warp
 # brew install --cask termius
 
