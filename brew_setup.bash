@@ -83,10 +83,10 @@ brew install f3 # check flash drives and other storage media
 brew install tmux
 brew install coreutils
 brew install htop
+brew install mosh
 brew install blueutil # bluetooth control via the command line
 # brew install sox
 # brew install dateutils
-# brew install mosh
 # brew install wireshark
 # brew install youtube-dl
 # brew install wget
