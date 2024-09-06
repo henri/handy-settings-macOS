@@ -110,6 +110,7 @@ brew install --cask wezterm
 
 ### handy apps
 # brew install --cask little-snitch
+# brew install --cask launchbar
 # brew install --cask carbon-copy-cloner
 # brew install --cask launchbar
 # brew install --cask raycast
