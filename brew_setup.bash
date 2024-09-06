@@ -94,6 +94,7 @@ brew install copyq # clipboard super powers
 # brew install dateutils
 # brew install wireshark
 # brew install youtube-dl
+# brew install yt-dlp
 # brew install wget
 # brew install telnet
 # brew install nmap
