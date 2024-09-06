@@ -78,13 +78,18 @@ brew install mpv
 
 ### handy utiltiies
 brew install qalc # calculator with unit conversion
-brew install git
+brew install git # version control
 brew install f3 # check flash drives and other storage media
-brew install tmux
+brew install tmux # terminal multilexer
+brew install zellij # terminal multiplexer
+
 brew install coreutils
-brew install htop
-brew install mosh
+brew install htop # like top
+brew install btop # like top
+brew install ncdu # find large files
+brew install mosh # keep connections alive
 brew install blueutil # bluetooth control via the command line
+brew install copyq # clipboard super powers
 # brew install sox
 # brew install dateutils
 # brew install wireshark
