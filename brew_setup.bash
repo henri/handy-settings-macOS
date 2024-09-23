@@ -72,6 +72,7 @@ fi
 
 
 ### media players
+brew install --cask darktable
 brew install --cask vlc
 brew install mpv
 # brew install --cask mplayerx
