@@ -95,6 +95,7 @@ brew install copyq # clipboard super powers
 # brew install sox
 # brew install dateutils
 # brew install wireshark
+# brew install wireshark-cli
 # brew install youtube-dl
 # brew install yt-dlp
 # brew install wget
@@ -106,6 +107,7 @@ brew install copyq # clipboard super powers
 ### handy terminal programs
 brew install --cask iterm2
 brew install --cask wezterm
+# brew install --cask ghostty
 # brew install --cask kitty
 # brew install --cask warp
 # brew install --cask termius
@@ -145,6 +147,7 @@ brew install --cask wezterm
 # brew install --cask docker
 # brew install --cask vmware-fusion
 # brew install --cask virtualbox
+# brew install --cask utm
 
 ### vnc tools
 # brew install --cask vnc-viewer # realvnc macOS app - works with x11vnc on LINUX
