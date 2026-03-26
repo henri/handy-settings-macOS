@@ -144,3 +144,6 @@ defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
 
 # enable tap to click on trackpad
 # defaults write com.apple.AppleMultitouchTrackpad Clicking -bool true
+
+# if your a scruffy icons-in-menus nerve hurter (macOS Taho) - turn off the icons
+# defaults write -g NSMenuEnableActionImages -bool NO
